@@ -658,6 +658,7 @@ img {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+
   transition-delay: 625ms;
 }
 
@@ -683,6 +684,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   opacity: 1;
+
   transform: translate(-50%, -50%) perspective(1000px) rotateX(0deg);
   transition: all 500ms var(--timing-function) 125ms;
 }
@@ -710,5 +712,6 @@ img {
 
 .backdrop.is-hidden .modal {
   opacity: 0;
+
   transform: translate(-50%, -50%) perspective(1000px) rotateX(180deg);
 }
